@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: sticky;
+    height: 150px;
+    width: 100%;
+    top: 0;
+    background-color: cadetblue;
+}
+.logo{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 20px;
+    left: 30px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.header .logo .m1{
+    position: absolute;
+    display: inline-flex;
+    width: 35rem;
+    margin-left: 27rem;
+    margin-top: 20px;  
+}
+.header .logo .m2{
+    position: absolute;
+    display: inline-flex;
+    width: 18rem;
+    margin-left: 35rem;
+    margin-top: 70px;
+}
+.navlinks{
+    background-color: aquamarine;
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    margin-top: 150px;
+}
+.navlinks a{
+    position: relative;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+    font-size: 20px;
+    margin-left: 5rem;
+    top: 35px;
+    left: 110px;
+    padding: 15px 15px;
+}
+.navlinks a:hover{
+    background-color: rgb(198, 235, 9);
+    border-radius: 10px;
+}
+.Home{
+    background-image: url(images/gpt\ home\ bg.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 35rem;
+}
+html{
+    scroll-padding-top: 12.5rem;
+}
+.Home .slogan1{
+    display: flex;
+    width: 45%;
+    color: rgb(27, 27, 26);
+    margin-top: 5rem;
+    padding-top: 6rem;
+    padding-left: 20rem;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 800;
+}
+.About{
+    background-color: transparent;
+    height: 35.5rem;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    gap: 5rem;
+    display: flex;    
+}
+.card{
+    height: 400px;
+    width: 300px;
+    background-color: antiquewhite;
+    margin-left: 15%;
+    display: grid;
+    margin-top: 5%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.card h1{
+    margin-left: 32%;
+    color:red;
+}
+.card p{
+    margin-left: 5px;
+}
+.card1{
+    height: 350px;
+    width: 650px;
+    background-color: antiquewhite;
+    margin-left: 10%;
+    display: grid;
+    margin-top: 7%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.card1 h1{
+    margin-left: 33%;
+    color:red;
+}
+.card1 p{
+    margin-left: 5px;
+}
+.Infrastructure{
+    background-color: transparent;
+    height: 35.5rem;
+}
+.slider{
+    height: 100%;
+    width: 49.8%;
+    margin-left: 23%;
+    overflow: hidden;
+}
+.slide{
+    display: flex;
+    height: 100%;
+    width: 126%;
+    margin-top: 10%;
+    animation: 15s slide infinite;
+    transition: linear;
+}
+.item img{
+    height: 28rem;
+    width: 46.8rem;
+    margin-left: 7px;
+}
+@keyframes slide{
+    0%{
+        margin-left: 0;
+    }
+    20%{
+        margin-left: 0;
+    }
+    40%{
+        margin-left: -99%;
+    }
+    60%{
+        margin-left: -99%;
+    }
+    80%{
+        margin-left: -198.1%;
+    }
+    100%{
+        margin-left: -198.1%;
+    }
+}
+.Admissions{
+    background-color: transparent;
+    height: 35.5rem;
+}
+.card2{
+    height: 30rem;
+    width: 100%;
+}
+.add{
+    height: 25rem;
+    width: 48rem;
+    margin-left: 23%;
+}
+.add img{
+    height: 100%;
+    width: 100%;
+    margin-top: 15%;
+}
+.Reviews{
+    background-color: transparent;
+    height: 35.5rem;
+}
+
+.card3{
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+}
+.card3 .w1{
+    height: 350px;
+    width: 250px;
+    background-color: lightpink;
+    margin-top: 8.5%;
+    margin-left: 11%;
+    border-radius: 10px;
+}
+.w1 img{
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 24px;
+}
+.w1 h1{
+    margin-top: 15px;
+    margin-left: 29%;
+}
+.w1 .u1{
+    margin-left: 32%;
+}
+.w1 p{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.w1 h2{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.Contact{
+    background-color: transparent;
+    height: 35.5rem;
+}
+.dood{
+    height: 30rem;
+    width: 100%;
+}
+.rows{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.rows img{
+    height: 400px;
+    width: 500px;
+    margin-top: 6.5%;
+    margin-left: 10%;
+    border-radius: 12px;
+}
+form{
+    height: 400px;
+    width: 500px;
+    display: grid;
+    margin-left: 13%;
+    margin-top: 6.5%;
+    border: 5px solid black;
+    border-radius: 15px;
+    gap: 1rem;
+}
+form h1{
+    margin-top: 20px;
+}
+form .box{
+    width: 95%;
+    margin-left: 12px;
+    border-radius: 12px;
+}
+form .button{
+   width: 40%;
+   margin-left: 31%;
+   margin-bottom: 8px;
+   border-radius: 15px;
+}
+form .button:hover{
+    background-color: lightcoral;
+}
+.Blog{
+    background: transparent;
+    height: 35.5rem;
+}
+.card4{
+    height: 30rem;
+    width: 100%;
+}
+.card5{
+    display: flex;   
+}
+.magic{
+    height: 350px;
+    width: 300px;
+    background-color: lightslategrey;
+    margin-left: 4%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+.magic .fas1{
+    margin-top: 12%;
+    margin-left: 35%;
+}
+.magic h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20%;
+}
+.magic p{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+hr{
+    height: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    background-color: black;
+}
+.copy{
+    margin-top: 20px;
+    margin-left: 37%;
+    font-size: 20px;
+}
+@media (max-width: 500px){
+    .header{
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+    .logo img{
+        height: 60px;
+        width: 60px;
+        margin-top: 25px;
+    }
+    .header .logo .m1{
+        margin-left: 35px;
+        font-size: 17px;
+    }
+    .header .logo .m2{
+        margin-left: 8rem;
+        font-size: 17px;
+    }
+    .navlinks{
+        background-color: aquamarine;
+        height: 215px;
+    }
+    .navlinks a{
+        position: sticky;
+        display: grid;
+        width: 150px;
+        line-height: 0;
+        text-align: center;
+        align-items: center;
+        top: 0;
+        margin-left: 12rem;
+    }
+    html{
+        scroll-padding-top: 5rem;
+    }
+    .Home{
+        width: 31.5rem;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .Home .slogan1{
+        position: absolute;
+        font-size: 12px;
+        width: 100%;
+        top: 32%;
+        right: 49%; 
+    }
+    .About .main{
+        position: relative;
+        display: block;
+        top: 5%;  
+    }
+    .About .main .card{
+        margin-left: 20%; 
+    }
+    .About .main .card1{
+       width: 90%;
+       height: 68%;
+       margin-left: 5%;
+       margin-top: 5%;
+    }
+    .Infrastructure .slider{
+        margin-top: 70%;
+        width: 99%;
+        margin-left: 0;
+    }
+    .item img{
+        height: 28rem;
+        width: 30.3rem;
+        margin-left: 7px;
+    }
+    @keyframes slide{
+        0%{
+            margin-left: 0;
+        }
+        20%{
+            margin-left: 0;
+        }
+        40%{
+            margin-left: -99%;
+        }
+        60%{
+            margin-left: -99%;
+        }
+        80%{
+            margin-left: -198.1%;
+        }
+        100%{
+            margin-left: -198.1%;
+        }
+    }
+    .Admissions .card2 .add{
+        margin-left: 8%;
+    }
+    .add img{
+        width: 55%;
+    }
+    .Reviews .card3{
+        display: block;
+    }
+    .card3 .w1{
+        height: 170px;
+        width: 150px;
+        background-color: lightpink;
+        margin-left: 35%;
+        border-radius: 10px;
+        
+    }
+    .w1 img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-left: 30%;
+    }
+    .w1 h1{
+        font-size: 10px;
+    }
+    .w1 h2{
+        font-size: 10px;  
+    }
+    .w1 p{
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+    .Contact .rows{
+        display: block;
+    }
+    .Contact .rows img{
+        width: 50%;
+        height: 25%;
+        margin-right: 10%;
+    }
+    .rows form{
+        width: 50%;
+        height: 25%;
+        margin-left: 25%;
+    }
+    .rows form .box{
+        margin-left: 5px;
+    }
+    .Blog .card5{
+        display: block;
+    }
+    .magic{
+        height: 170px;
+        width: 200px;
+        margin-left: 30%;
+    }
+    .magic .fas1{
+        font-size: 45px;
+        margin-top: 28px;
+        margin-left: 40%;
+    }
+    .magic h1{
+        font-size: 20px;
+        margin-top: 2px;
+    }
+    .magic p{
+        font-size: 15px;  
+    }
+    hr{
+        margin-left: 7%;
+    }
+    .copy{
+        width: 90%;
+        margin-left: 8.5%;
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+}
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
